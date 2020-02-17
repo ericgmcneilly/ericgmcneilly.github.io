@@ -108,11 +108,7 @@ analytics:
 # Site Author
 author:
   name             : "Eric McNeilly"
-<<<<<<< HEAD
   avatar           : "/Users/ericmcneilly/Desktop/ericgmcneilly.github.io/images/20170528_134055.jpg"
-=======
-  avatar           : # "/Users/ericmcneilly/Documents/Career\:Resumee\ /20170528_134052.jpg"
->>>>>>> fdfe77f7c2a8869c3b9f7d80a86e99735195ea6b
   bio              : "Aspiring Data Scientist currently pursuing my MS in Analytics and Data Science at the University of New Hampshire."
   location         : "Boston, MA"
   email            :
