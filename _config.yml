@@ -108,7 +108,7 @@ analytics:
 # Site Author
 author:
   name             : "Eric McNeilly"
-  avatar           : "/Users/ericmcneilly/Documents/Career\:Resumee\ /20170528_134052.jpg"
+  avatar           : # "/Users/ericmcneilly/Documents/Career\:Resumee\ /20170528_134052.jpg"
   bio              : "Aspiring Data Scientist currently pursuing my MS in Analytics and Data Science at the University of New Hampshire."
   location         : "Boston, MA"
   email            :
@@ -284,11 +284,11 @@ defaults:
       comments: # true
       share: true
       related: true
-
-      # _pages
-      - scope:
-          path: ""
-          type: pages
-        values:
-          layout: single
-          author_profile: true 
+      
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
