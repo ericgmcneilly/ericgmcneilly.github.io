@@ -19,8 +19,8 @@ locale                   : "en-US"
 title                    : "Site Title"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Your Name"
-description              : "An amazing website."
+name                     : "Eric McNeilly"
+description              : "Data Science and Analytics Project and Code Portfolio."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -107,30 +107,21 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
+  name             : "Eric McNeilly"
+  avatar           : "/Users/ericmcneilly/Documents/Career\:Resumee\ /20170528_134052.jpg"
+  bio              : "Aspiring Data Scientist currently pursuing my MS in Analytics and Data Science at the University of New Hampshire."
+  location         : "Boston, MA"
   email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: mailto:your.name@email.com
-    - label: "Website"
+      url: mailto:egm1006@wildcats.unh.edu
+    - label: "LinkedIn"
       icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
+      url: "https://www.linkedin.com/in/ericmcneilly/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+      url: "https://ericgmcneilly.github.io"
 
 # Site Footer
 footer:
@@ -293,3 +284,11 @@ defaults:
       comments: # true
       share: true
       related: true
+
+      # _pages
+      - scope:
+          path: ""
+          type: pages
+        values:
+          layout: single
+          author_profile: true 
