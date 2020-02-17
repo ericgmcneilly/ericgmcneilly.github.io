@@ -16,8 +16,8 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Site Title"
-title_separator          : "-"
+title                    : "Data Science and Analytics Portfolio"
+title_separator          : "Data Science and Analytics Project and Code Portfolio."
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Eric McNeilly"
 description              : "Data Science and Analytics Project and Code Portfolio."
@@ -108,7 +108,7 @@ analytics:
 # Site Author
 author:
   name             : "Eric McNeilly"
-  avatar           : "/Users/ericmcneilly/Documents/Career\:Resumee\ /20170528_134052.jpg"
+  avatar           : "/Users/ericmcneilly/Desktop/ericgmcneilly.github.io/images/20170528_134055.jpg"
   bio              : "Aspiring Data Scientist currently pursuing my MS in Analytics and Data Science at the University of New Hampshire."
   location         : "Boston, MA"
   email            :
@@ -286,9 +286,9 @@ defaults:
       related: true
 
       # _pages
-      - scope:
-          path: ""
-          type: pages
-        values:
-          layout: single
-          author_profile: true 
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
