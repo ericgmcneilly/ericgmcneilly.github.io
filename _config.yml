@@ -284,13 +284,8 @@ defaults:
       comments: # true
       share: true
       related: true
-<<<<<<< HEAD
-
-      # _pages
-=======
       
-  # _pages
->>>>>>> fdfe77f7c2a8869c3b9f7d80a86e99735195ea6b
+    # _pages
   - scope:
       path: ""
       type: pages
